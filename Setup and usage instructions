@@ -1,0 +1,29 @@
+⚙️ Setup and Usage Instructions (Bullet Points)
+1) Clone the repository or download the ZIP file of the project.
+
+2) Install Python 3.8 or above if it's not already installed on your system.
+
+3) Install required Python packages by running:
+pip install -r requirements.txt
+Run train_model.py to:
+
+4) Load and preprocess the dataset
+
+5) Train SVM and Random Forest classifiers
+
+6) Perform hyperparameter tuning (GridSearchCV)
+
+7) Save the best-performing model and scaler
+
+8) Output evaluation metrics and performance plots
+
+9) Trained model files are saved as:
+
+heart_disease_model.pkl – the best model (Random Forest)
+
+scaler.pkl – the StandardScaler used
+
+model_columns.pkl – list of feature names used during training
+
+All results (including ROC curves and metrics) can be found in the project directory after running the script.
+
