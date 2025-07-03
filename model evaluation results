@@ -1,0 +1,4 @@
+📊 Model Performance Comparison:
+           Model  Accuracy  Precision    Recall  F1 Score   ROC AUC
+0  Random Forest  0.985366   1.000000  0.970874  0.985222  1.000000
+1            SVM  0.878049   0.836207  0.941748  0.885845  0.941938
