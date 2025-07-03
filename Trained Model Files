@@ -1,0 +1,10 @@
+## 📦 Trained Model Files
+
+The following files are saved in the `model/` directory:
+
+- `heart_disease_model.pkl`: Trained Random Forest classifier
+- `scaler.pkl`: StandardScaler used for feature scaling
+- `model_columns.pkl`: Feature column list used during training (to ensure correct input order)
+
+You can load these files using `joblib.load()` for inference or deployment.
+
